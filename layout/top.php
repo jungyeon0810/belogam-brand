@@ -62,7 +62,7 @@
             </h1>
 
             <div class="gnb d-flex aic jcc">
-                <ul class="d-flex aic">
+                <ul class="d-flex aic pc_menu_L">
                     <li><a href="/page/brand.php">브랜드</a></li>
                     <li><a href="/page/made.php">메이드벨로</a></li>
                     <li><a href="/page/care.php">벨로케어</a></li>

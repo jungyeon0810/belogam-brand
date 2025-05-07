@@ -1,1 +1,1 @@
-#hd{position:fixed;z-index:1000;height:5.375rem;left:0;right:0;top:0}#hd .gnb{gap:70px}
+#hd{position:fixed;z-index:1000;height:5.375rem;left:0;right:0;top:0}#hd .gnb ul{gap:70px}#hd .gnb ul li a{color:var(--main, #CDA580);text-decoration:none}#hd .util ul{gap:30px}

@@ -5,9 +5,22 @@
     height: 5.375rem;
     left: 0;
     right: 0;
-    top: 0;
+    top: 0; 
     .gnb{
-        gap: 70px;
-        
+        ul{
+            gap: 70px;
+            li{
+                a{
+                    color: var(--main, #CDA580);
+                    text-decoration: none;
+                    
+                }
+            }
+        }
+    }
+    .util{
+        ul{
+            gap: 30px;
+        }
     }
 }

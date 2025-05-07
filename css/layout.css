@@ -6,6 +6,13 @@
   right: 0;
   top: 0;
 }
-#hd .gnb {
+#hd .gnb ul {
   gap: 70px;
+}
+#hd .gnb ul li a {
+  color: var(--main, #CDA580);
+  text-decoration: none;
+}
+#hd .util ul {
+  gap: 30px;
 }
