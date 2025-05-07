@@ -52,17 +52,17 @@
 <body class="<?php if(isset($page)) echo $page; ?>">
     <header id="hd" class="header <?php if(!defined('_INDEX_')) echo "scrolled"; ?>">
 
-        <div class='ad'>
+        <div class='ad d-none'>
             <a href="" class="text02-1 d-flex aic jcc">1초만에 회원가입하고 5,000원 할인쿠폰 받기~!</a>
         </div>
 
-        <div class="box01 d-flex jcb aic">
+        <div class="logo d-flex jcb aic outer">
             <h1>
                 <a href="/"><img src="/images/icon/logo/logo01.svg" alt="logo"></a>
             </h1>
 
-            <div class="gnb d-flex aic">
-                <ul class="d-flex aic l-menu">
+            <div class="gnb d-flex aic jcc">
+                <ul class="d-flex aic">
                     <li><a href="/page/brand.php">브랜드</a></li>
                     <li><a href="/page/made.php">메이드벨로</a></li>
                     <li><a href="/page/care.php">벨로케어</a></li>

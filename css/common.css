@@ -1,0 +1,73 @@
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 공통 클래스 */
+.a {
+    text-decoration: none;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.outer{
+    max-width: 1780px;
+    margin: 0 auto;
+}
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.i-flex {
+    display: inline-flex;
+}
+
+.f-d {
+    flex-direction: column;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.jce {
+    justify-content: flex-end;
+}
+
+.aic {
+    align-items: center;
+}
+
+.aie {
+    align-items: flex-end;
+}
+
+.ais {
+    align-items: flex-start;
+}
+
+.p170 {
+    padding: 170px 0;
+}
