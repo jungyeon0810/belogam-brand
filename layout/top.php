@@ -52,7 +52,7 @@
 <body class="<?php if(isset($page)) echo $page; ?>">
     <header id="hd" class="header <?php if(!defined('_INDEX_')) echo "scrolled"; ?>">
 
-        <div class='ad d-none'>
+        <div class='ad'>
             <a href="" class="text02-1 d-flex aic jcc">1초만에 회원가입하고 5,000원 할인쿠폰 받기~!</a>
         </div>
 
