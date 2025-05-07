@@ -13,9 +13,13 @@
     <link rel="shortcut icon" href="//jungyeon0810.github.io/belogam/images/icon/logo/simbal.svg">
 
     <title>BeloGem</title>
-    <link rel="preconnect" href="//fonts.googleapis.com">
-    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
-    <link href="//fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
+    <!-- wantedsans font -->
+    <link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/static/complete/WantedSans.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/static/complete/WantedSans.min.css" />
+    <!-- maruburi serif font -->
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/fonts.css">
 
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
