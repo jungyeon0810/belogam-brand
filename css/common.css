@@ -11,6 +11,34 @@ p {
     margin: 0;
 }
 
+:root{
+    /* Color styles */
+    --main: rgba(205, 165, 128, 1);
+    --sub---raisin--black: rgba(35, 35, 38, 1);
+    --sub---light--gray: rgba(245, 245, 245, 1);
+    
+    /* Text-size styles */
+    --pc--main--date-text03: 14px;
+    --pc--main--text01-2line: 16px;
+    --pc--main--date-text02: 16px;
+    --pc--main--sub-title-hover: 20px;
+    --pc--main--date-text01: 22px;
+    --pc--main--sub-title01-2line: 22px;
+    --pc--main--sub-title01: 22px;
+    --pc--main--sub-title02: 20px;
+    --pc--main--sub-text: 16px;
+    --pc--main--title01-2line: 46px;
+    --pc--main--title01: 46px;
+    --pc--main--title02: 34px;
+    --pc--main--button-text03: 18px;
+    --pc--main--button-text02: 16px;
+    --pc--main--button-text01: 16px;
+    --pc--main--f_menu02: 18px;
+    --pc--main--f_menu01: 18px;
+    --pc--main--menu_m: 18px;
+    --pc--main--menu_-l: 20px;
+    }
+
 
 /* 레이아웃 공통클래스 */
 .a {
@@ -22,6 +50,10 @@ p {
 }
 .outer{
     max-width: 1780px;
+    margin: 0 auto;
+}
+.inner{
+    max-width: 1342px;
     margin: 0 auto;
 }
 .rel {
@@ -75,7 +107,7 @@ p {
 
 /* 폰트 공통클래스 */
 .pc_menu_L{
-    font-family: 'MaruBuriBold';
+    font-family: 'MaruBuriSemiBold';
     font-style: normal;
     font-display: swap;
     font-size: var(--pc--main--menu_-l);

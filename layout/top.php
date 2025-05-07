@@ -56,7 +56,7 @@
             <a href="" class="text02-1 d-flex aic jcc">1초만에 회원가입하고 5,000원 할인쿠폰 받기~!</a>
         </div>
 
-        <div class="logo d-flex jcb aic outer">
+        <div class="d-flex jcb aic outer">
             <h1>
                 <a href="/"><img src="/images/icon/logo/logo01.svg" alt="logo"></a>
             </h1>
