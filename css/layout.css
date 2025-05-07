@@ -16,3 +16,22 @@
 #hd .util ul {
   gap: 30px;
 }
+
+#visual {
+  height: 960px;
+}
+#visual .swiper-slide {
+  background-size: cover;
+}
+#visual .swiper-slide.slide1 {
+  background-image: url(images/img/main_visual01.jpg);
+}
+#visual .swiper-slide.slide2 {
+  background-image: url(images/img/main_visual02.jpg);
+}
+#visual .swiper-slide.slide3 {
+  background-image: url(images/img/main_visual03.jpg);
+}
+#visual .swiper-slide.slide4 {
+  background-image: url(images/img/main_visual04.jpg);
+}

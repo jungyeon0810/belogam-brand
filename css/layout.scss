@@ -24,3 +24,22 @@
         }
     }
 }
+
+#visual{
+    height: 960px;
+    .swiper-slide{
+        background-size: cover;
+        &.slide1{
+            background-image: url(images/img/main_visual01.jpg);
+        }
+        &.slide2{
+            background-image: url(images/img/main_visual02.jpg);
+        }
+        &.slide3{
+            background-image: url(images/img/main_visual03.jpg);
+        }
+        &.slide4{
+            background-image: url(images/img/main_visual04.jpg);
+        }
+    }
+}

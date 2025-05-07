@@ -3,14 +3,55 @@ define('_INDEX_', true);
 include_once("./layout/top.php"); ?>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<section id="visual">
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide1">
+            <p>BeloGam</p>
+            <p>우리의 목표는 <span>세상 모든<br>반려견</span>들의 <span>행복</span>입니다.</p>
+        </div>
+
+        <div class="swiper-slide2">
+            <p>BeloGam</p>
+            <p>우리의 목표는 <span>세상 모든<br>반려견</span>들의 <span>행복</span>입니다.</p>
+        </div>
+
+        <div class="swiper-slide3">
+            <p>BeloGam</p>
+            <p>우리의 목표는 <span>세상 모든<br>반려견</span>들의 <span>행복</span>입니다.</p>
+        </div>
+
+        <div class="swiper-slide4">
+            <p>BeloGam</p>
+            <p>우리의 목표는 <span>세상 모든<br>반려견</span>들의 <span>행복</span>입니다.</p>
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
 
 
 
 
 
 
-
-
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 
 
 
