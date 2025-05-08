@@ -276,3 +276,20 @@ p {
     font-size: var(--pc--main--date-text03);
     letter-spacing: -0.42px;
 }
+
+
+/* jy_커스터마이징 */
+.jy-btn1{
+    gap: 10px;
+    background-color:transparent;
+    color: var(--sub-Light-Gray, #F5F5F5);
+    border: 1px solid var(--sub-Light-Gray, #F5F5F5);
+    padding: 15px 50px;
+    transition: background-color 0.3s ease;
+    &:hover {
+        background-color: var(--sub---light--gray, #F5F5F5);
+        color: var(--sub---raisin--black, #232326);
+        
+    }
+
+}
