@@ -279,17 +279,22 @@ p {
 
 
 /* jy_커스터마이징 */
+.jy-p170{
+    padding-top: 170px;
+}
 .jy-btn1{
+    width: 155px;
+    height: 42px;
     gap: 10px;
     background-color:transparent;
     color: var(--sub-Light-Gray, #F5F5F5);
     border: 1px solid var(--sub-Light-Gray, #F5F5F5);
-    padding: 15px 50px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
     &:hover {
+        gap: 15px;
         background-color: var(--sub---light--gray, #F5F5F5);
         color: var(--sub---raisin--black, #232326);
-        
+        transition: all 0.5s;
     }
 
 }

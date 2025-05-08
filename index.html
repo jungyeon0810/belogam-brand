@@ -8,26 +8,90 @@ include_once("./layout/top.php"); ?>
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
         <div class="swiper-slide slide1 d-flex f-d jcc">
-            <div class="inner d-flex f-d w-100">
+
+            <div class="inner d-flex ais f-d w-100">
               <div>
                 <p class="pc_sub_title01">BeloGam</p>
-                <p class="pc_title01_2line">우리의 목표는 <span>세상 모든<br>반려견</span>들의 <span>행복</span>입니다.</p>
-                <button class="d-flex aic jcc jy-btn1 pc_button_t01">바로가기
-                  <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path id="Polygon 1" d="M7.55411 6.1376L0.851659 11.513L0.757094 0.882326L7.55411 6.1376Z" fill="currentColor"/>               
-                  </svg></button>
+                <h1 class="pc_title01_2line">우리의 목표는 <span>세상 모든<br>반려견</span>들의 <span>행복</span>입니다.</h1>
               </div>
-            </div>
+
+            
+              <button class="d-flex aic jcc jy-btn1 pc_button_t01">바로가기
+                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="Polygon 1" d="M7.55411 6.1376L0.851659 11.513L0.757094 0.882326L7.55411 6.1376Z" fill="currentColor"/>               
+                </svg>
+              </button>
         </div>
+      </div>
+
+      <div class="swiper-slide slide2 d-flex f-d jcc">
+
+        <div class="inner d-flex ais f-d w-100">
+          <div>
+            <p class="pc_sub_title01">BeloGam</p>
+            <h1 class="pc_title01_2line">우리의 목표는 <span>세상 모든<br>반려견</span>들의 <span>행복</span>입니다.</h1>
+          </div>
+
+        
+          <button class="d-flex aic jcc jy-btn1 pc_button_t01">바로가기
+            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="Polygon 1" d="M7.55411 6.1376L0.851659 11.513L0.757094 0.882326L7.55411 6.1376Z" fill="currentColor"/>               
+            </svg>
+          </button>
+    </div>
+  </div>
+  
+  <div class="swiper-slide slide3 d-flex f-d jcc">
+
+    <div class="inner d-flex ais f-d w-100">
+      <div>
+        <p class="pc_sub_title01">BeloGam</p>
+        <h1 class="pc_title01_2line">우리의 목표는 <span>세상 모든<br>반려견</span>들의 <span>행복</span>입니다.</h1>
+      </div>
+
+    
+      <button class="d-flex aic jcc jy-btn1 pc_button_t01">바로가기
+        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="Polygon 1" d="M7.55411 6.1376L0.851659 11.513L0.757094 0.882326L7.55411 6.1376Z" fill="currentColor"/>               
+        </svg>
+      </button>
+</div>
+</div>
+
+<div class="swiper-slide slide4 d-flex f-d jcc">
+
+  <div class="inner d-flex ais f-d w-100">
+    <div>
+      <p class="pc_sub_title01">BeloGam</p>
+      <h1 class="pc_title01_2line">우리의 목표는 <span>세상 모든<br>반려견</span>들의 <span>행복</span>입니다.</h1>
     </div>
 
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
+  
+    <button class="d-flex aic jcc jy-btn1 pc_button_t01">바로가기
+      <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path id="Polygon 1" d="M7.55411 6.1376L0.851659 11.513L0.757094 0.882326L7.55411 6.1376Z" fill="currentColor"/>               
+      </svg>
+    </button>
+</div>
+</div>
+
+      <div class="btn1 d-flex">
+        <div class="btn1-next"><img src="/images/icon/button/right.svg" alt=""></div>
+        <div class="btn1-prev"></div>
+        <div class="pagination1"><img src="/images/icon/button/left.svg" alt=""></div>
+      </div>
+
+    </div>
   </div>
 </section>
 
-
+<section id="c01" class="p170">
+  <div class="d-flex aic jcc">
+    <p>
+      <img src="/images/img/c01_dog.png" alt="강아지">
+    </p>
+  </div>
+</section>
 
 
 
@@ -36,12 +100,12 @@ include_once("./layout/top.php"); ?>
   <script>
     var swiper = new Swiper(".mySwiper", {
       pagination: {
-        el: ".swiper-pagination",
+        el: ".pagination1",
         type: "fraction",
       },
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".btn1-next",
+        prevEl: ".btn1-prev",
       },
     });
   </script>
