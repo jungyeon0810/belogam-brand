@@ -53,3 +53,37 @@
 #visual .swiper-slide .inner .btn {
   z-index: 10000;
 }
+
+#c01 .box1 {
+  gap: 50px;
+}
+
+#c02 .box1 {
+  height: 600px;
+}
+#c02 .box1 .left {
+  gap: 20px;
+  background-image: url(/images/img/c02_01.jpg);
+}
+#c02 .box1 .left .pc_menu_M {
+  color: var(--main, #CDA580);
+}
+#c02 .box1 .left .pc_title02 {
+  color: var(--sub---raisin-black, #232326);
+}
+#c02 .box1 .left .pc_text01_2line {
+  color: var(--sub---raisin-black, #232326);
+}
+#c02 .box1 .right {
+  gap: 20px;
+  background-image: url(/images/img/c02_02.jpg);
+}
+#c02 .box1 .right .pc_menu_M {
+  color: var(--main, #CDA580);
+}
+#c02 .box1 .right .pc_title02 {
+  color: var(--sub---light--gray, #f5f5f5);
+}
+#c02 .box1 .right .pc_text01_2line {
+  color: var(--sub---light--gray, #f5f5f5);
+}

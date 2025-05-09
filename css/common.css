@@ -189,7 +189,7 @@ p {
 }
 
 .pc_title02{
-    font-family: 'MaruBuri';
+    font-family: 'MaruBuriSemiBold';
     font-style: normal;
     font-display: swap;
     font-size: var(--pc--main--title02);
@@ -197,6 +197,15 @@ p {
 }
 
 .pc_text01{
+    font-family: "Wanted Sans";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    font-size: var(--pc--main--text01-2line);
+    letter-spacing: -0.48px;
+    line-height: 22px; /* 137.5% */
+}
+.pc_text01_2line{
     font-family: "Wanted Sans";
     font-style: normal;
     font-display: swap;
@@ -298,3 +307,38 @@ p {
     }
 
 }
+
+.jy-btn2{
+    width: 155px;
+    height: 42px;
+    gap: 10px;
+    background-color:var(--sub---raisin--black, #232326);
+    color: var(--sub-Light-Gray, #F5F5F5);
+    border: none;
+    transition: background-color 0.5s ease;
+    &:hover {
+        gap: 15px;
+        background-color: var(--main, #CDA580);
+        color: var(--sub-Light-Gray, #F5F5F5);
+        transition: all 0.5s;
+    }
+
+}
+
+.jy-btn3{
+    width: 155px;
+    height: 42px;
+    gap: 10px;
+    background-color:var(--sub-Light-Gray, #F5F5F5);
+    color: var(--sub---raisin--black, #232326);
+    border: none;
+    transition: background-color 0.5s ease;
+    &:hover {
+        gap: 15px;
+        background-color: var(--main, #CDA580);
+        color: var(--sub-Light-Gray, #F5F5F5);
+        transition: all 0.5s;
+    }
+
+}
+
