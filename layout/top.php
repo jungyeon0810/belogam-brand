@@ -43,10 +43,22 @@
 <script>
     window.addEventListener("DOMContentLoaded", () => {
         const allbtn = document.querySelector("#allMenu");
-        allbtn.addEventListener('click', () => {
-            allbtn.classList.toggle('on');
-        })
-    })
+        if (allbtn) {
+            allbtn.addEventListener('click', () => {
+                allbtn.classList.toggle('on');
+            });
+        }
+
+        // 스크롤 이벤트로 헤더에 클래스 추가
+        const header = document.querySelector("header");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+        });
+    });
 </script>
 
 <body class="<?php if(isset($page)) echo $page; ?>">

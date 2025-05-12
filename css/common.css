@@ -16,6 +16,7 @@ p {
     --main: rgba(205, 165, 128, 1);
     --sub---raisin--black: rgba(35, 35, 38, 1);
     --sub---light--gray: rgba(245, 245, 245, 1);
+    --Light-Text:rgba(131, 131, 131, 1);
     
     /* Text-size styles */
     --pc--main--date-text03: 14px;
@@ -112,6 +113,7 @@ p {
     font-display: swap;
     font-size: var(--pc--main--menu_-l);
     letter-spacing: -0.6px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_menu_M{
@@ -121,6 +123,7 @@ p {
     font-weight: 500;
     font-size: var(--pc--main--menu_m);
     letter-spacing: -0.36px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_f_menu01{
@@ -130,6 +133,7 @@ p {
     font-weight: 600;
     font-size: var(--pc--main--f_menu01);
     letter-spacing: -0.54px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_f_menu02{
@@ -139,6 +143,7 @@ p {
     font-weight: 400;
     font-size: var(--pc--main--f_menu01);
     letter-spacing: -0.54px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_button_t01{
@@ -157,6 +162,7 @@ p {
     font-weight: 500;
     font-size: var(--pc--main--button-text02);
     letter-spacing: -0.48px;
+    line-height: 1em; /* 100% */
 
 }
 
@@ -167,6 +173,7 @@ p {
     font-weight: 500;
     font-size: var(--pc--main--button-text03);
     letter-spacing: -0.36px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_title01{
@@ -176,6 +183,7 @@ p {
     font-weight: 600;
     font-size: var(--pc--main--title01);
     letter-spacing: -1.38px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_title01_2line{
@@ -194,6 +202,7 @@ p {
     font-display: swap;
     font-size: var(--pc--main--title02);
     letter-spacing: -1.02px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_text01{
@@ -204,6 +213,7 @@ p {
     font-size: var(--pc--main--text01-2line);
     letter-spacing: -0.48px;
     line-height: 22px; /* 137.5% */
+    line-height: 1em; /* 100% */
 }
 .pc_text01_2line{
     font-family: "Wanted Sans";
@@ -222,6 +232,7 @@ p {
     font-weight: 400;
     font-size: var(--pc--main--sub-text);
     letter-spacing: -0.32px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_sub_title01{
@@ -231,6 +242,7 @@ p {
     font-weight: 500;
     font-size: var(--pc--main--sub-title01);
     letter-spacing: -0.66px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_sub_title01_2line{
@@ -249,6 +261,7 @@ p {
     font-display: swap;
     font-size: var(--pc--main--sub-title02);
     letter-spacing: -0.6px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_sub_title_h{
@@ -257,6 +270,7 @@ p {
     font-display: swap;
     font-size: var(--pc--main--sub-title-hover);
     letter-spacing: -0.6px;
+    line-height: 1em; /* 100% */
 }
 
 .pc_date_t01{
@@ -266,6 +280,7 @@ p {
     font-weight: 400;
     font-size: var(--pc--main--date-text01);
     letter-spacing: -0.66px;
+    line-height: 1em; /* 100% */
 }
 .pc_date_t02{
     font-family: "Wanted Sans";
@@ -275,6 +290,7 @@ p {
     font-size: var(--pc--main--date-text02);
     letter-spacing: -0.48px;
     text-decoration-line: line-through;
+    line-height: 1em; /* 100% */
 }
 
 .pc_date_t03{
@@ -284,6 +300,7 @@ p {
     font-weight: 400;
     font-size: var(--pc--main--date-text03);
     letter-spacing: -0.42px;
+    line-height: 1em; /* 100% */
 }
 
 

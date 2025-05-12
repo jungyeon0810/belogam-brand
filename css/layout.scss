@@ -104,7 +104,9 @@
 
 #c03{
     .box1{
-        gap: 10px;
+        position: relative;
+        .box1-1{
+            gap: 10px;
         .pc_menu_M{
             color: var(--main, #CDA580);
         }
@@ -112,8 +114,45 @@
             color: var(--sub---raisin-black, #232326);
         }
     }
+        .btn4{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            border: none;
+            background-color: transparent;
+            color: var(--sub-Raisin-Black, #232326);   
+            &:hover{
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-skip-ink: auto;
+                text-decoration-thickness: 8%; /* 1.44px */
+                text-underline-offset: auto;
+                text-underline-position: from-font;
+            }        
+        }
+    }
     .swiper-slide{
         gap: 20px;
+        padding-top: 70px;
+        .pc_sub_text{
+            color: var(--Light-Text, #838383);
+        }
+        .pc_sub_title02{
+            color: var(--sub---raisin-black, #232326);
+            text-decoration: none;
+            &:hover{
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-skip-ink: auto;
+                text-decoration-thickness: auto;
+            }
+        }
+        .pc_date_t01{
+            color: var(--main, #CDA580);
+        }
+        .box2{
+            gap:15px;
+        }
     }
 }
 
