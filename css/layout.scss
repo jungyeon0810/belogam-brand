@@ -15,7 +15,6 @@
                     a{
                         color: var(--main, #CDA580);
                         text-decoration: none;
-                        
                     }
                 }
             }
@@ -102,4 +101,19 @@
             }
         }
     }
+
+#c03{
+    .box1{
+        gap: 10px;
+        .pc_menu_M{
+            color: var(--main, #CDA580);
+        }
+        .pc_title02{
+            color: var(--sub---raisin-black, #232326);
+        }
+    }
+    .swiper-slide{
+        gap: 20px;
+    }
+}
 

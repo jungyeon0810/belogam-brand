@@ -87,3 +87,16 @@
 #c02 .box1 .right .pc_text01_2line {
   color: var(--sub---light--gray, #f5f5f5);
 }
+
+#c03 .box1 {
+  gap: 10px;
+}
+#c03 .box1 .pc_menu_M {
+  color: var(--main, #CDA580);
+}
+#c03 .box1 .pc_title02 {
+  color: var(--sub---raisin-black, #232326);
+}
+#c03 .swiper-slide {
+  gap: 20px;
+}

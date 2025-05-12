@@ -121,8 +121,105 @@ include_once("./layout/top.php"); ?>
             </svg>
           </button>
       </div>
+  </div>
+</section>
 
+<section id="c03" class="p170">
+  <div class="box1 d-flex jcc aic f-d">
+    <p class="pc_menu_M">Belo Event</p>
+    <h3 class="pc_title02">벨로 이벤트</h3>
+  </div>
+   <!-- Swiper -->
+   <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide1 d-flex jcc">
+        <div class="d-flex f-d">
+          <img src="/images/img/c03_01.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+        <div>
+          <img src="/images/img/c03_01.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+        <div>
+          <img src="/images/img/c03_01.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+      </div>
+      
+      <div class="swiper-slide slide2 d-flex jcc">
+        <div class="d-flex aic f-d">
+          <img src="/images/img/c03_02.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+        <div>
+          <img src="/images/img/c03_02.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+        <div>
+          <img src="/images/img/c03_02.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
 
+      </div>
+      <div class="swiper-slide slide3 d-flex jcc">
+        <div class="d-flex aic f-d">
+          <img src="/images/img/c03_03.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+        <div>
+          <img src="/images/img/c03_03.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+        <div>
+          <img src="/images/img/c03_03.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide slide4 d-flex jcc">
+        <div class="d-flex aic f-d">
+          <img src="/images/img/c03_01.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+        <div>
+          <img src="/images/img/c03_01.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+        <div>
+          <img src="/images/img/c03_01.jpg" alt="이미지1">
+          <p><a href="" class="pc_sub_title02">배변훈련 이벤트</a></p>
+          <p>초간단 폴딩과 라이트한 무게로 누구나 쉽게 사용!</p>
+          <p>~25.05.02</p>
+        </div>
+      </div>
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
   </div>
 </section>
 
@@ -138,6 +235,17 @@ include_once("./layout/top.php"); ?>
       navigation: {
         nextEl: ".btn1-next",
         prevEl: ".btn1-prev",
+      },
+    });
+
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
     });
   </script>
