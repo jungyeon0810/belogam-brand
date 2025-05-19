@@ -533,8 +533,42 @@
 
 /* footer */
 #ft {
+    padding: 70px;
     background-color: var(--Raisin-Black, #232326);
-    .cn{
+    .box1{
+        padding-bottom: 50px;
+        .list{
+            gap: 15px;
+            a{
+                color: var(--main, #CDA580);
+                text-decoration: none;
+            }
+            img{
+                height: 12px;
+            }
+        }
+    }
+
+    .company{
+        padding-top: 50px;
+        gap: 15px;
+        p{
+            color: var(--sub---light--gray, #f5f5f5);
+            gap: 10px;
+            span{
+                color: var(--sub---light--gray, #f5f5f5);
+                opacity: 0.7;
+            }
+        }
+        .box1-1{
+            gap: 30px;
+        }
+        .box1-2{
+            padding-top: 20px;
+        }
+    }
+    .cs-center{
+        padding-top: 50px;
         p{
             color: var(--sub---light--gray, #f5f5f5);
         }

@@ -430,8 +430,43 @@
 
 /* footer */
 #ft {
+  padding: 70px;
   background-color: var(--Raisin-Black, #232326);
 }
-#ft .cn p {
+#ft .box1 {
+  padding-bottom: 50px;
+}
+#ft .box1 .list {
+  gap: 15px;
+}
+#ft .box1 .list a {
+  color: var(--main, #CDA580);
+  text-decoration: none;
+}
+#ft .box1 .list img {
+  height: 12px;
+}
+#ft .company {
+  padding-top: 50px;
+  gap: 15px;
+}
+#ft .company p {
+  color: var(--sub---light--gray, #f5f5f5);
+  gap: 10px;
+}
+#ft .company p span {
+  color: var(--sub---light--gray, #f5f5f5);
+  opacity: 0.7;
+}
+#ft .company .box1-1 {
+  gap: 30px;
+}
+#ft .company .box1-2 {
+  padding-top: 20px;
+}
+#ft .cs-center {
+  padding-top: 50px;
+}
+#ft .cs-center p {
   color: var(--sub---light--gray, #f5f5f5);
 }

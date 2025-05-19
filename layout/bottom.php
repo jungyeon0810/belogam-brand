@@ -1,6 +1,6 @@
 <footer id="ft">
     <div class="d-flex">
-        <div cass="d-flex">
+        <div cass="d-flex jcb aic">
         <h1><a href=""><img src="/images/icon/logo/logo01.svg" alt="로고"></a></h1>
 
         <div class="link">
@@ -14,22 +14,22 @@
        </div>
 
        <div class="d-flex">
-        <div class="cn">
+        <div class="cn d-flex">
             <p class="pc_f_menu02"><strong>대표</strong> 홍길동 &nbsp;&nbsp; <strong>사업자번호</strong> 124-94-99017</p>
             <p><strong>본사</strong> 주소 서울 구로구 공원로 83 (구로동) 4층</p>
             <p><strong>이메일</strong> Belogam2025@gmail.com</p>
             <p>COPYRIGHT © BeloGem. ALL RIGHTS RESERVED</p>
         </div>
 
-        <div class="cs">
+        <div class="cs d-flex f-d">
             <p class="customer-center pc_f_menu01">고객센터</p>
             <p class="phone-number pc_title01">02-000-0000</p>
             <p class="pc_date_t03">평일 : 09:00 - 18:00</p>
             <p class="pc_date_t03">주말/공휴일 : 휴무</p>
         </div>
 
-        <div>
-        <select class="btn">
+        <div class="d-flex f-d">
+        <select class="btns">
                 <option>Family Site</option>
                 <option>BeloGem</option>
                 <option>LubiGem</option>
