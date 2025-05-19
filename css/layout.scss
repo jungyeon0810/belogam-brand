@@ -104,7 +104,9 @@
 
         .left {
             gap: 20px;
+            width: 50%;
             background-image: url(/images/img/c02_01.jpg);
+            background-repeat: no-repeat;
 
             .pc_menu_M {
                 color: var(--main, #CDA580);
@@ -122,6 +124,7 @@
         .right {
             gap: 20px;
             background-image: url(/images/img/c02_02.jpg);
+            background-repeat: no-repeat;
 
             .pc_menu_M {
                 color: var(--main, #CDA580);
@@ -342,6 +345,16 @@
 
 
 #c05{
+    .btn7-next{
+        top: 50%;
+        right: 216px;
+        z-index: 10000;
+    }
+    .btn7-prev{
+        top: 50%;
+        left: 216px;
+        z-index: 10000;
+    }
     .box{
     .box1 {
         position: relative;
@@ -383,32 +396,147 @@
     .box2{
         gap: 20px;
         .t1{
+            gap: 10px;
             min-width: 664px;
             height: 664px;
             background-image: url(/images/img/c05_01.jpg);
+            padding: 20px;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+            background-blend-mode: darken;
+            }
         }
         .t2{
+            gap: 10px;
             min-width: 322px;
             height: 322px;
             background-image: url(/images/img/c05_02.jpg);
+            padding: 20px;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+            background-blend-mode: darken;
+            }
         }
-        .t3{
+        .t3 {
+            gap: 10px;
             min-width: 322px;
             height: 322px;
             background-image: url(/images/img/c05_03.jpg);
+            padding: 20px;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+            background-blend-mode: darken;
+            }
         }
         .t4{
+            gap: 10px;
             min-width: 322px;
             height: 322px;
             background-image: url(/images/img/c05_04.jpg);
+            padding: 20px;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+            background-blend-mode: darken;
+            }
         }
         .t5{
+            gap: 10px;
             min-width: 322px;
             height: 322px;
             background-image: url(/images/img/c05_05.jpg);
+            padding: 20px;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+            background-blend-mode: darken;
+            }
+        }
+        .box2-1{
+            gap: 20px;
+            .box2-2{
+                gap: 20px;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: var(--sub-Light-Gray, #F5F5F5);
+            &:hover {
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-skip-ink: auto;
+                text-decoration-thickness: 8%;
+                /* 1.44px */
+                text-underline-offset: auto;
+                text-underline-position: from-font;
+            }
+        }
+        p{
+            text-decoration: none;
+            color: var(--sub-Light-Gray, #F5F5F5);
         }
     }
 }
 
 }
+}
+
+#c07{
+    .box1{
+        gap: 70px;
+        .box1-1{
+            gap: 10px;
+            .pc_menu_M {
+                color: var(--main, #CDA580);
+            }
+            .pc_title02 {
+                color: var(--sub---raisin-black, #232326);
+            }
+        }        
+    }
+
+    .c07-btn {
+        z-index: 10000;
+        gap: 35px;
+
+        .pagination4 {
+            text-align: center;
+
+            .swiper-pagination-current {
+                color: var(--sub---raisin-black, #232326);
+            }
+
+            .swiper-pagination-total {
+                color: var(--sub---raisin-black, #232326);
+                opacity: 0.5;
+            }
+        }
+    }
+    .c07Swiper{
+        max-width: 1779px;
+        .c07-box{
+            gap: 20px;
+            
+        }
+    }
+}
+
+
+
+/* footer */
+#ft {
+    background-color: var(--Raisin-Black, #232326);
+    .cn{
+        p{
+            color: var(--sub---light--gray, #f5f5f5);
+        }
+    }
 }
