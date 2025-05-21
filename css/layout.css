@@ -434,6 +434,7 @@
   background-color: var(--Raisin-Black, #232326);
 }
 #ft .box1 {
+  max-width: 1781px;
   padding-bottom: 50px;
 }
 #ft .box1 .list {
@@ -446,27 +447,27 @@
 #ft .box1 .list img {
   height: 12px;
 }
-#ft .company {
+#ft .under-line .company {
   padding-top: 50px;
   gap: 15px;
 }
-#ft .company p {
+#ft .under-line .company p {
   color: var(--sub---light--gray, #f5f5f5);
   gap: 10px;
 }
-#ft .company p span {
+#ft .under-line .company p span {
   color: var(--sub---light--gray, #f5f5f5);
   opacity: 0.7;
 }
-#ft .company .box1-1 {
+#ft .under-line .company .box1-1 {
   gap: 30px;
 }
-#ft .company .box1-2 {
+#ft .under-line .company .box1-2 {
   padding-top: 20px;
 }
-#ft .cs-center {
+#ft .under-line .cs-center {
   padding-top: 50px;
 }
-#ft .cs-center p {
+#ft .under-line .cs-center p {
   color: var(--sub---light--gray, #f5f5f5);
 }
