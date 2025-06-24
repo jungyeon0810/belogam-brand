@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/icon/logo/simbal.svg" type="image/svg+xml">
     <!-- SEO 기본 메타 태그 -->
   <title>벨로젬 | 맞춤형 반려견 사료 · 웨어 · 용품 브랜드</title>
-  <meta name="description" content="BeloGem은 반려견을 위한 맞춤형 사료, 맞춤 옷, 감성 용품을
-  제안하는 프리미엄 브랜드입니다. 당신의 반려견에게 꼭 맞는 라이프스타일을 선물하세요.">
+  <meta name="description" content="BeloGem은 반려견을 위한 맞춤형 사료, 맞춤 옷, 감성 용품을 제안하는 프리미엄 브랜드입니다. 당신의 반려견에게 꼭 맞는 라이프스타일을 선물하세요.">
   <meta name="keywords" content="강아지 맞춤사료, 강아지 영양제, 벨로젬, 반려견 맞춤 브랜드">
   <meta name="author" content="벨로젬">
+  
 <!-- Open Graph (SNS 공유 최적화용) -->
 <meta property="og:title" content="벨로젬 | 반려견 맞춤 사료 & 웨어">
   <meta property="og:description" content="당신의 반려견을 위한 프리미엄 맞춤 브랜드, 벨로젬.">
