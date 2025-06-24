@@ -1,7 +1,7 @@
-
-<footer id="ft">
-  
- <div class="box1 d-flex jcb aie">
+</section>
+<footer id="ft" class="px-3  py-5">
+  <div class="outer">
+  <div class="box1 d-flex gap-3 gap-xl-0 flex-column flex-xl-row justify-content-between align-items-xl-end ">
     <h1><img src="/images/icon/logo/logo01.svg" alt=""></h1>
 
     <div class="list d-flex aic">
@@ -22,7 +22,7 @@
     </div>
  </div>
 
-      <div class="under-line d-flex jcb aie">
+  <div class="under-line d-flex flex-column flex-xl-row justify-content-between align-items-xl-end">
     <div class="company d-flex f-d">
       <div class="box1-1 d-flex">
         <p class="d-flex pc_f_menu01">대표 <span class="pc_f_menu02">홍길동</span></p>
@@ -44,14 +44,14 @@
       </div>      
     </div>
 
-    <div class="family d-flex f-d">
+    <div class="family d-flex f-d pt-5 pt-xl-0">
     <select name="speed" id="speed_ddd">
       <option>BeloGem</option>
       <option>LuvieGem</option>
     </select>
 
 
-      <div class="sns d-flex jcb">
+      <div class="sns d-flex justify-content-xl-between ">
           <a href="#"><img src="/images/icon/sns/instagram.png" alt="인스타그램"></a>
           <a href="#"><img src="/images/icon/sns/kakao.png" alt="카카오"></a>
           <a href="#"><img src="/images/icon/sns/youtube.png" alt="유튜브"></a>
@@ -60,6 +60,9 @@
       
           </div>
   </div>
+  </div>
+  
+ 
 
   <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"

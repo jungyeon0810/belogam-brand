@@ -4,14 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SEO최적화 -->
-    <meta property="og:title" content="소중함의 다른 이름 벨로젬(BeloGem)" />
-    <meta property="og:site_name" content="벨로젬">
-    <meta property="og:description" content="세상에 모든 반려견들의 행복을 위한 브랜드 벨로젬입니다." />
-    <meta property="og:image" content="   //jungyeon0810.github.io/belogam/images/img/c01_dog.png/">
-    <meta property="og:locale" content="ko_KR" />
-    <link rel="shortcut icon" href="//jungyeon0810.github.io/belogam/images/icon/logo/simbal.svg">
-
+    <!-- SEO 기본 메타 태그 -->
+  <title>벨로젬 | 맞춤형 반려견 사료 · 웨어 · 용품 브랜드</title>
+  <meta name="description" content="BeloGem은 반려견을 위한 맞춤형 사료, 맞춤 옷, 감성 용품을
+  제안하는 프리미엄 브랜드입니다. 당신의 반려견에게 꼭 맞는 라이프스타일을 선물하세요.">
+  <meta name="keywords" content="강아지 맞춤사료, 강아지 영양제, 벨로젬, 반려견 맞춤 브랜드">
+  <meta name="author" content="벨로젬">
+<!-- Open Graph (SNS 공유 최적화용) -->
+<meta property="og:title" content="벨로젬 | 반려견 맞춤 사료 & 웨어">
+  <meta property="og:description" content="당신의 반려견을 위한 프리미엄 맞춤 브랜드, 벨로젬.">
+  <meta property="og:type" content="http://jungyeon2999.dothome.co.kr/">
+  <meta property="og:url" content="http://jungyeon2999.dothome.co.kr/">
+  <meta property="og:image" content="http://jungyeon2999.dothome.co.kr/images/img/seo.jpg">
     <title>BeloGem</title>
     <!-- font -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
@@ -42,39 +46,65 @@
 </head>
 <script>
     window.addEventListener("DOMContentLoaded", () => {
-        const allbtn = document.querySelector("#allMenu");
-        if (allbtn) {
-            allbtn.addEventListener('click', () => {
-                allbtn.classList.toggle('on');
-            });
-        }
+    const allbtn = document.querySelector("#allMenu");
+    const header = document.querySelector("header");
+    const menuImg = allbtn?.querySelector("img");
 
-        // 스크롤 이벤트로 헤더에 클래스 추가
-        const header = document.querySelector("header");
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 50) {
-                header.classList.add("scrolled");
+    if (allbtn && header && menuImg) {
+        allbtn.addEventListener('click', () => {
+            header.classList.toggle('on');
+
+            // on 클래스에 따라 이미지 src 변경
+            if (header.classList.contains("on")) {
+                menuImg.setAttribute("src", menuImg.getAttribute("data-src"));
             } else {
-                header.classList.remove("scrolled");
+                menuImg.setAttribute("src", menuImg.getAttribute("data-original"));
             }
         });
+    }
+
+    // 스크롤 이벤트로 헤더에 클래스 추가        
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+            header.classList.remove('on');
+        } else {
+            header.classList.remove("scrolled");
+        }
+        if (header.classList.contains("on")) {
+            menuImg.setAttribute("src", menuImg.getAttribute("data-src"));
+        } else {
+            menuImg.setAttribute("src", menuImg.getAttribute("data-original"));
+        }
     });
+});
+
 </script>
 
-<body class="<?php if(isset($page)) echo $page; ?>">
-    <header id="hd" class="header <?php if(!defined('_INDEX_')) echo "scrolled"; ?>">
+<body class="<?php if(defined('_INDEX_')) echo "indexpage"; ?> overflow-x-hidden">
+    <header id="hd" class="header <?php if(!defined('_INDEX_')) echo "scrolled"; ?>  ">
+        <!-- <?php //if(!defined('_INDEX_')){ ?>
+            <div class='ad '>
+                <a href="" class="text02-1 d-flex aic jcc ">1초만에 회원가입하고 5,000원 할인쿠폰 받기~!</a>
+            </div>
+        <?php //} ?> -->
 
-        <div class='ad d-none'>
-            <a href="" class="text02-1 d-flex aic jcc">1초만에 회원가입하고 5,000원 할인쿠폰 받기~!</a>
-        </div>
-
-        <div class="d-flex jcb aic outer">
-            <h1>
-                <a href="/"><img src="/images/icon/logo/logo01.svg" alt="logo"></a>
+        <div class="d-flex jcb aic outer py-3 py-xl-0 px-3 px-xl-0">
+            <h1 class="order-xl-1 order-2">
+                <a href="/">
+                    <img src="/images/icon/logo/logo01.svg" class="d-none d-xl-block" alt="logo">
+                    <img src="/images/icon/logo/logo02.svg" class="d-block d-xl-none" alt="logo">
+                </a>
             </h1>
+            <button id="allMenu" class="d-flex aic jcc d-xl-none bg-transparent border-0 order-1">
+            <img src="/images/icon/button/ham.svg"
+         data-src="/images/icon/button/close.svg"
+         data-original="/images/icon/button/ham.svg"
+         alt="전체메뉴">
+            </button>
 
-            <div class="gnb d-flex aic jcc">
-                <ul class="d-flex aic pc_menu_L">
+            <div class="gnb align-items-xl-center justify-content-xl-center d-none d-xl-flex order-xl-2 px-3 px-xl-0 py-4 py-xl-0">
+                <ul class="d-flex flex-column flex-xl-row align-items-xl-center pc_menu_L">
                     <li><a href="/page/brand.php">브랜드</a></li>
                     <li><a href="/page/made.php">메이드벨로</a></li>
                     <li><a href="/page/care.php">벨로케어</a></li>
@@ -83,8 +113,8 @@
                 </ul>
             </div>
 
-            <div>
-                <div class="util d-flex aic">
+            <div class="order-3">
+                <div class="util d-xl-flex d-none aic">
                     <ul class="d-flex aic">
                         <li><a href="/member/login.html"><img src="/images/icon/button/user.svg" alt="로그인"></a></li>
                         <li><a href="/member/cart.html"><img src="/images/icon/button/cart.svg" alt="장바구니"></a></li>
@@ -95,15 +125,42 @@
         </div>
 
     </header>
+   
 
     <style>
+        .indexpage 
         .header {
             transition: background-color 0.3s ease;
+            background-color: transparent;
         }
 
-        .header.scrolled {
+       .indexpage .header.scrolled {
             background-color: #232326;
         }
+        .header {
+            background-color: #232326;
+        }
+
+        @media (max-width:1280px) {
+            #hd .gnb{
+                height: auto;
+            }
+            #hd .gnb ul{
+                gap:25px;
+            }
+            .gnb{ position: absolute; top:100%; background-color:  black; left:0; width:100%; background-color: #232326;}
+            header#hd.on{
+                background-color: #232326;
+            }
+            header.on .gnb{
+                display: flex !important;
+            }
+            
+        }
+        
+
+
+
     </style>
 
 
